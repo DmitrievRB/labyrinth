@@ -16,7 +16,7 @@ def found(pathArr, finPoint):
                     if x > 0 and pathArr[y][x - 1] == 0:
                         pathArr[y][x - 1] = weight + 1
 
-                    # Влево
+                    # Влево 1
                     if x < (len(pathArr[y]) - 1) and pathArr[y][x + 1] == 0:
                         pathArr[y][x + 1] = weight + 1
 
