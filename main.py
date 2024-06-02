@@ -52,7 +52,7 @@ def printPath(pathArr, finPoint):
 
 
 labirint = []
-with open(r"Doc/la") as myFile:
+with open(r"labyrinth\Doc\labyrinth.txt", "r") as myFile:
     for line in myFile:
         labirint.append(line.replace('\n', '').split(' '))
 
